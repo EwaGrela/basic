@@ -18,7 +18,7 @@ def user_agent():
 
 @app.route("/request")
 def request_info():
-	return f'Request method: {request.method} Url: {request.url} Headers: {request.headers}'
+	return f'Request method: {request.method} url: {request.url} Headers: {request.headers}'
 
 @app.route("/counter")
 def counter():
